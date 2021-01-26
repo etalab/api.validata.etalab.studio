@@ -1,2 +1,17 @@
 validata-api==0.4.0a3
 gunicorn
+
+-e git+https://git.opendatafrance.net/validata/validata-core.git@frictionless_py_migration#egg=validata_core
+apispec
+cachetools
+flask
+flask-cors
+flask-matomo
+flasgger
+marshmallow
+python-dotenv
+requests
+toml
+toolz
+ujson
+validata_core >= 0.6.0a2
