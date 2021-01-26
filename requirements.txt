@@ -14,4 +14,3 @@ requests
 toml
 toolz
 ujson
-validata_core >= 0.6.0a2
