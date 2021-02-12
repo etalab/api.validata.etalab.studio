@@ -1,2 +1,2 @@
-validata-api==0.3.8
+validata-api==0.4.0
 gunicorn
