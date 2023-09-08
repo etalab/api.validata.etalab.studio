@@ -1,0 +1,9 @@
+---
+version: '3'
+services:
+  validata:
+    build:
+      context: ./
+    container_name: validata-api
+    ports:
+      - 5069:5000
