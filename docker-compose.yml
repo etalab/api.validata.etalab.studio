@@ -2,8 +2,10 @@
 version: '3'
 services:
   validata:
+    env_file:
+      - .env
     build:
       context: ./
-    container_name: validata-api
+    container_name: validata-api_$ENV_NAME
     ports:
-      - 5069:5000
+      - $PORT_NUMBER:5000
