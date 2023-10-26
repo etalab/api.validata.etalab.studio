@@ -24,4 +24,4 @@ WORKDIR /home/validata/
 COPY --chown=validata:validata requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt --no-warn-script-location
 
-CMD gunicorn --workers 4 --bind 0.0.0.0:5000 validata_api:app
+CMD gunicorn --workers 4 --bind 0.0.0.0:5000 validata_api.api:app
